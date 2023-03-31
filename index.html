@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+  <header>
+      <h1 class="headerText">Fighting Game Player Skill Chart Maker</h1>
+  </header>
+
+  <div class="middle">
+
+    <div class="middleChild">
+      <div class="middleChildVertical">
+        <div class="nameDiv">
+          <label>Player Name: </label>
+          <input type="text" onChange="player_name(this.value);" id="fname" name="fname">
+        </div>
+        <div class="chartDiv">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+      <div class="middleChildVertical">
+        <div class="explanationDiv">
+          <h1>Neutral: Space control otherwise known as Footsies.</h1>
+          <h1>Execution: Mechanical skills such as combos and special moves.</h1>
+          <h1>Yomi: Reading your opponents minds and countering them.</h1>
+          <h1>Knowledge: General knowledge of character strategies, frame data etc.</h1>
+          <h1>Reaction Speed: Speed at which you can react to situations.</h1>
+          <h1>Temper: Keeping cool when under stress or when losing.</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="middleChild">
+      <div class="statInputs">
+        <div>
+          <label>Neutral: </label>
+          <input type="number" onChange="neutral(this.value);" id="neutral" name="neutral" min="0" max="5">
+        </div>
+        <div>
+          <label>Execution: </label>
+          <input type="number" onChange="execution(this.value);" id="execution" name="execution" min="0" max="5">
+        </div>
+        <div>
+          <label>Yomi: </label>
+          <input type="number" onChange="yomi(this.value);" id="yomi" name="yomi" min="0" max="5">
+        </div>
+        <div>
+          <label>Knowledge: </label>
+          <input type="number" onChange="knowledge(this.value);" id="knowledge" name="knowledge" min="0" max="5">
+        </div>
+        <div>
+          <label>Reaction Speed: </label>
+          <input type="number" onChange="reaction(this.value);" id="reaction" name="reaction" min="0" max="5">
+        </div>
+        <div>
+          <label>Temper: </label>
+          <input type="number" onChange="temper(this.value);" id="temper" name="temper" min="0" max="5">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="radar.js"></script>
+</body>
+
+<footer>
+  <h1 class="footerText">made by abuzitin2000</h1>
+</footer>
+
+</html>

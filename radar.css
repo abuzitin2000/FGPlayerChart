@@ -1,0 +1,92 @@
+body {
+	margin: 0px;
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+	background-color: white;
+	padding: 20px;
+}
+
+.middleChild {
+    width: 50%;
+    float: left;
+} 
+
+.middleChildVertical {
+	height: 50%;
+}
+
+.chartDiv {
+	padding: 10px 10px 0px 10px;
+	width: 50%;
+	height: auto;
+	margin-left: 10%;
+}
+
+header {
+	background-color: rgb(75, 75, 75);
+	height: 56px;
+	border-bottom: 1px solid black;
+}
+
+.headerText {
+	margin: 0px;
+	padding: 13px 0px 0px 22px;
+	color: rgb(204, 204, 204);
+	font-family: Monospace;
+	font-size: 24px;
+}
+
+.explanationDiv {
+	font-family: Monospace;
+	color: rgb(15, 15, 15);
+}
+
+footer {
+	background-color: rgb(125, 125, 125);
+	height: 26px;
+	margin-top: auto;
+}
+
+.footerText {
+	margin: 0px;
+	padding-top: 4px;
+	text-align: center;
+	color: rgb(60, 60, 60);
+	font-family: Monospace;
+	font-size: 16px;
+}
+
+.nameDiv label {
+	font-family: Monospace;
+	color: rgb(15, 15, 15);
+	font-size: 16px;
+}
+
+.statInputs {
+	display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.statInputs div {
+    margin: 50px;
+}
+
+.statInputs label {
+	color: rgb(60, 60, 60);
+	font-family: Monospace;
+	font-size: 32px;
+}
+
+.statInputs input {
+	width: 50px;
+	height: 25px;
+	color: rgb(60, 60, 60);
+	font-family: Monospace;
+	font-size: 32px;
+	
+}

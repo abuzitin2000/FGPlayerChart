@@ -83,10 +83,10 @@ footer {
 }
 
 .statInputs input {
-	width: 50px;
+	width: 75px;
 	height: 25px;
 	color: rgb(60, 60, 60);
 	font-family: Monospace;
 	font-size: 32px;
-	
+
 }
